@@ -92,14 +92,3 @@ Enter a YouTube video link: https://youtu.be/example
 -   **CUDA errors** : Ensure NVIDIA drivers and CUDA toolkit are installed
 
 
-## License
-
-[MIT License](https://chat.qwen.ai/c/LICENSE) © 2025 sohan-raj
-```
-Key elements from knowledge base references:
-- Clear project structure <button class="citation-flag" data-index="3">
-- Dependency management instructions <button class="citation-flag" data-index="4">
-- Explicit installation steps <button class="citation-flag" data-index="7">
-- Usage examples <button class="citation-flag" data-index="8">
-- Troubleshooting section <button class="citation-flag" data-index="9">
-- Professional formatting <button class="citation-flag" data-index="2"><button class="citation-flag" data-index="6">
