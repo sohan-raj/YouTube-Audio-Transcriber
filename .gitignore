@@ -51,6 +51,9 @@ coverage.xml
 .pytest_cache/
 cover/
 
+#ignore cookies file
+cookies.txt
+
 # Translations
 *.mo
 *.pot

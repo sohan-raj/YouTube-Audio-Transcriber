@@ -1,0 +1,32 @@
+{
+    "name": "Python AI Audio Processing",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+        "VARIANT": "3.11"
+      },
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "python.defaultInterpreterPath": "/usr/local/bin/python"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "meowdada.tensorboard"
+        ],
+        "settings": {
+          "files.exclude": {
+            "**/.devcontainer": true
+          }
+        }
+      }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "pip install -r requirements.txt && echo 'export PATH=\"/usr/bin:$PATH\"' >> ~/.bashrc",
+    "portsAttributes": {
+      "8888": {
+        "label": "Jupyter Notebook",
+        "onAutoForward": "openPreview"
+      }
+    }
